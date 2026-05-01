@@ -5,8 +5,9 @@ public class Simple_Calculator {
         Scanner obj = new Scanner(System.in);
 
         double a = obj.nextDouble();
-        double b = obj.nextDouble();
         char op = obj.next().charAt(0);
+        double b = obj.nextDouble();
+        
 
         switch (op) {
             case '+': System.out.println(a+b);
